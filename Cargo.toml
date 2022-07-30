@@ -9,6 +9,7 @@ edition = "2021"
 bit_field = "0.10.0"
 
 [features]
+default = ["raspi3"]
 raspi3 = []
 # This requires allocating a 64K consecutive memory block.
 raspi4 = []

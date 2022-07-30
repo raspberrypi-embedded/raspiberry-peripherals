@@ -12,7 +12,8 @@ mod console;
 #[cfg(feature = "raspi3")]
 #[path = "boards/raspi3.rs"]
 mod board;
-#[cfg(not(any(feature = "raspi3")))]
+
+#[cfg(feature = "raspi4")]
 #[path = "boards/raspi4.rs"]
 mod board;
 
